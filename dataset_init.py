@@ -13,3 +13,4 @@ diabetes
 diabetes.columns
 diabetes.size
 diabetes.shape
+diabetes.dtypes
