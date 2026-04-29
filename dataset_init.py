@@ -1,5 +1,7 @@
 #mport kagglehub
+
 import pandas as pd
+import kagglehub
 
 """
 #kagglehub was used to download the dataset 
@@ -9,8 +11,13 @@ path = kagglehub.dataset_download("iammustafatz/diabetes-prediction-dataset")
 print("Path to dataset files:", path)
 """
 diabetes = pd.read_csv("diabetes_prediction_dataset.csv")
-diabetes
+print(diabetes)
 diabetes.columns
 diabetes.size
 diabetes.shape
 diabetes.dtypes
+
+
+
+
+
