@@ -4,7 +4,7 @@ Predicting Diabetic Status Among Females: A Logistic Regression Analysis of Clin
 
 [diabetes_prediction_dataset.csv](https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset)
 
-Project Motivation
+## Project Motivation
 
 Diabetes is a chronic metabolic disease reaching epidemic proportions in the United States, with a higher prevalence observed in women. Despite this, there is insufficient research into how specific demographic and medical factors influence the diabetic status of women. This study aims to:  
 +1
@@ -16,7 +16,7 @@ Discover Relationships: Analyze correlations between health factors like BMI, ag
 Improve Diagnosis: Build an accurate predictive model to facilitate faster clinical intervention.  
 +1
 
-Methodology
+## Methodology
 1. Data Inspection and Cleaning
 
 The analysis utilized the diabetes_dataset_prediction_csv, containing 100,000 records and 9 features.  
@@ -29,7 +29,7 @@ Handling Nulls: No null or missing values were found in the original set.
 
 Feature Engineering: The smoking_history feature was simplified from phrases to single words and then numerically encoded.  
 
-2. Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 EDA revealed significant trends and data gaps:
 
@@ -56,7 +56,8 @@ Training: An 80/20 train-test split was used with a stratify parameter to mainta
 Cross-Validation: 5-Fold cross-validation was employed, and class_weight="balanced" was applied to handle the unbalanced nature of the dataset.  
 +1
 
-Evaluations
+## Evaluations
+
 The model's performance was measured using several metrics to ensure accuracy despite the data imbalance:
 
 Accuracy: The model achieved an overall accuracy of 89%.  
@@ -73,6 +74,6 @@ False Positives: 673.
 
 False Negatives: 104.  
 
-Conclusions
+## Conclusions
 The study confirms that HbA1c and blood glucose levels are the primary indicators of diabetes in women across all age groups. However, significant data gaps exist for females under 18, suggesting a critical need for further research in younger demographics to improve early disease prediction.
 
