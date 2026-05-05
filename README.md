@@ -1,4 +1,4 @@
-# diabetes-prediction
+# diabetes-prediction machine-modeling
 
 Predicting Diabetic Status Among Females: A Logistic Regression Analysis of Clinical Indicators and Age-Based Data Gaps
 
