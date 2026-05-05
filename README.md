@@ -42,13 +42,13 @@ EDA revealed significant trends and data gaps:
 
 A supervised machine learning approach was chosen to model the binomial outcome (1 for Diabetic, 0 for Non-Diabetic).  
 
-+ Algorithm: Logistic Regression (specifically LogisticRegressionCV) was selected as the best fit for the binomial response variable.  
++ Algorithm: Logistic Regression `LogisticRegressionCV()` was selected as the best fit for the binomial response variable.  
 
-+ Preprocessing: Features were scaled using StandardScaler() to ensure uniform weight.  
++ Preprocessing: Features were scaled using `StandardScaler()` to ensure uniform weight.  
 
-+ Training: An 80/20 train-test split was used with a stratify parameter to maintain class proportions.  
++ Training: An 80/20 train-test split was used with a `stratify` parameter to maintain class proportions.  
 
-+ Cross-Validation: 5-Fold cross-validation was employed, and class_weight="balanced" was applied to handle the unbalanced nature of the dataset.  
++ Cross-Validation: 5-Fold cross-validation `cv=5`was employed, and `class_weight="balanced"` was applied to handle the unbalanced nature of the dataset.  
 
 
 ## Evaluations
@@ -59,15 +59,15 @@ The model's performance was measured using several metrics to ensure accuracy de
 
 + ROC Curve: The Area Under the Curve (AUC) was 0.95, indicating a high true-positive rate with a low false-positive rate.  
 
-+Confusion Matrix:
++ Confusion Matrix:
 
- _ True Positives: 594.  
+ - True Positives: 594.  
 
- _ True Negatives: 5,821.  
+ - True Negatives: 5,821.  
 
- _ False Positives: 673.  
+ - False Positives: 673.  
 
- _ False Negatives: 104.  
+ - False Negatives: 104.  
 
 ## Conclusions
 
